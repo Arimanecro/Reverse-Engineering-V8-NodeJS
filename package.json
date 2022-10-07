@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "engines": {
+    "node": ">=17"
+  },
+  "scripts": {
+    "hc": "node --allow-natives-syntax --no-sparkplug ./V8/hidden-class.js",
+    "arr": "node --allow-natives-syntax --no-sparkplug ./V8/array.js",
+    "obj": "node --allow-natives-syntax --no-sparkplug ./V8/object.js",
+    "vars": "node --print-bytecode --print-bytecode-filter=test var-vs-let\"&\"const.js",
+    "vars2": "node --allow-natives-syntax var-vs-let\"&\"const-2.js"
+  }
+}
