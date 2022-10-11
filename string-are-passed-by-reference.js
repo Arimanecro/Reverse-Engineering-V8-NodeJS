@@ -34,3 +34,8 @@ console.log(memory()); // ~15.8 MB
 func(string);
 
 console.log(memory()); // expectation: ~103MB, reality: ~15.80 MB
+
+// The same memory address!
+string // 0x02e684e4cb69
+string2 // 0x02e684e4cb69
+arr // 0-4: 0x02e684e4cb69 <String[4]: #aaaaaaaaaaa>
