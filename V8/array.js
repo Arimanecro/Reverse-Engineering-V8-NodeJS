@@ -80,6 +80,11 @@ for (let index = 0; index < 100; index++) {
 }
 
 /**
+ * Fastest way to copy arrays
+ */
+const copyArr = (arr1, arr2) => [...arr1, ...arr2]
+
+/**
  * RECAP:
  * - The best way to create array is: var arr = [];
  * - The best way to dynamically fill array is to use key as string:
