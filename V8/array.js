@@ -87,6 +87,7 @@ const copyArr = (arr1, arr2) => [...arr1, ...arr2]
 /**
  * RECAP:
  * - The best way to create array is: var arr = [];
+ * - Fastest way to copy arrays: const copyArr = (arr1, arr2) => [...arr1, ...arr2]
  * - The best way to dynamically fill array is to use key as string:
  *   Object.defineProperty(arr0, `abc${index}`, { value: index });
  */
