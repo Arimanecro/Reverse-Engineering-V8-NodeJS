@@ -1,5 +1,5 @@
-import repl from "node:repl";
 import "./v8-func-wrapper.js";
+import { PerformanceObserver, performance } from "perf_hooks";
 
 /**
  * Advantages:
